@@ -3,19 +3,19 @@ import { motion } from 'framer-motion';
 
 export default function Hero3D() {
   return (
-    <section className="relative min-h-[80vh] w-full overflow-hidden bg-neutral-950">
+    <section className="relative min-h-[90vh] w-full overflow-hidden bg-neutral-950">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/pDXeCthqjmzYX5Zk/scene.splinecode"
+          scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
 
       {/* Soft gradient glows - non-blocking for 3D interactions */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-20 -left-20 w-[42rem] h-[42rem] bg-cyan-500/20 blur-[110px] rounded-full" />
-        <div className="absolute -bottom-24 -right-10 w-[36rem] h-[36rem] bg-violet-500/20 blur-[120px] rounded-full" />
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[22rem] h-[22rem] bg-blue-400/10 blur-[100px] rounded-full" />
+        <div className="absolute -top-28 -left-24 w-[48rem] h-[48rem] bg-fuchsia-500/15 blur-[120px] rounded-full" />
+        <div className="absolute -bottom-24 -right-24 w-[46rem] h-[46rem] bg-cyan-500/15 blur-[130px] rounded-full" />
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[26rem] h-[26rem] bg-violet-400/10 blur-[110px] rounded-full" />
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 pt-28 pb-16">
@@ -26,10 +26,10 @@ export default function Hero3D() {
           className="max-w-3xl"
         >
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white tracking-tight">
-            Futuristic Mental Wellness, Powered by Friendly AI
+            Cyber‑Calm Wellness, in 3D
           </h1>
           <p className="mt-4 text-lg md:text-xl text-white/80">
-            Breathe easier, focus better, and build balanced habits. BalanceAI combines neuroscience-backed guidance with an approachable vibe. ✨🧠
+            A dark, futuristic space where an explorer reaches toward balance. Take a breath, tap around, and let BalanceAI guide your next small step. ✨
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#get-started" className="px-5 py-3 rounded-xl bg-gradient-to-r from-violet-500 to-cyan-500 text-white shadow-lg shadow-violet-500/30 hover:shadow-cyan-500/30 transition">
@@ -45,9 +45,9 @@ export default function Hero3D() {
               Privacy-first
             </span>
             <span>•</span>
-            <span>Calm, Creamy UI</span>
+            <span>Creamy, cyberpunk gradients</span>
             <span>•</span>
-            <span>Built with React + Tailwind</span>
+            <span>Interactive 3D hero</span>
           </div>
         </motion.div>
       </div>
