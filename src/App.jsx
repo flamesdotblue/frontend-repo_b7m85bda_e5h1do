@@ -1,20 +1,20 @@
 import React from 'react';
-import Hero from './components/Hero';
-import MoodCheck from './components/MoodCheck';
-import BreathCoach from './components/BreathCoach';
-import Resources from './components/Resources';
+import LandingHero from './components/LandingHero';
+import Benefits from './components/Benefits';
+import WorkflowPreview from './components/WorkflowPreview';
+import AuthCta from './components/AuthCta';
 
 function App() {
   return (
     <div className="min-h-screen bg-neutral-950 font-inter text-white">
-      <Hero />
+      <LandingHero />
       <main>
-        <MoodCheck />
-        <BreathCoach />
-        <Resources />
+        <Benefits />
+        <WorkflowPreview />
+        <AuthCta />
       </main>
       <footer className="border-t border-white/10 bg-neutral-950 px-6 py-8 text-center text-sm text-white/60">
-        Built for mindful moments. If you’re in crisis, use the resources above or contact local emergency services.
+        BalanceAI · A neon‑orchid wellness experience. For emergencies, contact local services immediately.
       </footer>
     </div>
   );
