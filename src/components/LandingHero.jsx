@@ -7,7 +7,7 @@ export default function LandingHero() {
     <section className="relative min-h-[88vh] w-full overflow-hidden bg-neutral-950 text-white">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode"
+          scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
@@ -36,7 +36,7 @@ export default function LandingHero() {
         </h1>
 
         <p className="mt-4 max-w-2xl text-balance text-white/80 sm:text-lg">
-          A dark, cyber‑futuristic wellness experience with interactive 3D — harmonizing mental health, movement, and digital habits.
+          A futuristic wellness app to harmonize mental health, physical activity, and digital habits — with a calm, orchid‑themed experience.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
